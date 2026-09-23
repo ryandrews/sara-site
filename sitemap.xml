@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://www.andrewssmiles.com/</loc>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.andrewssmiles.com/about-us.php</loc>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.andrewssmiles.com/services.php</loc>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.andrewssmiles.com/smile-gallery.php</loc>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.andrewssmiles.com/patient-center.php</loc>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.andrewssmiles.com/blog.php</loc>
+        <changefreq>monthly</changefreq>
+    </url>
+</urlset>
