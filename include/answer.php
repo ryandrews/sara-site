@@ -1,3 +1,7 @@
+<?php
+$question = $question ?? '';
+$answer = $answer ?? '';
+?>
 <li>
     <h4>
         <span class="arrow"></span>

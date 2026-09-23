@@ -1,7 +1,9 @@
 <head>
     <?php
-        $user_agent = strtolower ( $_SERVER['HTTP_USER_AGENT'] );
-        if ( preg_match ( "/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent ) ) {
+        $basePath = $basePath ?? '';
+        $title = $title ?? '';
+        $user_agent = isset($_SERVER['HTTP_USER_AGENT']) ? strtolower($_SERVER['HTTP_USER_AGENT']) : '';
+        if ($user_agent !== '' && preg_match("/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent)) {
             echo "<meta name=viewport content='width=620px'>";
         }
     ?>

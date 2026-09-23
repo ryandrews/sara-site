@@ -1,3 +1,9 @@
+<?php
+$class = $class ?? '';
+$title = $title ?? '';
+$image = $image ?? '';
+$info = $info ?? '';
+?>
 <li class="<?php echo $class; ?>">
     <h3><?php echo $title; ?></h3>
     <div class="less clearfix">

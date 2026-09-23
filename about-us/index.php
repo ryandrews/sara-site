@@ -1,3 +1,3 @@
 <?php
-    header("Location:/about.php");
-exit;?>
+header("Location: /about-us.php", true, 301);
+exit;
