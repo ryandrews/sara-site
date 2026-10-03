@@ -1,3 +1,4 @@
+<?php $basePath = $basePath ?? ''; ?>
 <div class="top">
     <div class="content">
         <div class="image">

@@ -1,16 +1,12 @@
 <?php
-if ($_SERVER['HTTPS'] != "on") {
-$url = "https://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-header("Location: $url");
-exit;
-}
+require_once __DIR__ . '/../include/ssl.php';
 ?>
 <!doctype html>
 <html lang="en">
 <?php $basePath = "../";?>
 <?php $title = "Covid-19 Precautions  | ";  include $basePath.'include/head.php'; ?>
 <body>
-<?php include $basePath.'include/header.php';?>
+<?php $selected = 'about'; include $basePath.'include/header.php';?>
 <div id="main">
     <div id="about-us">
 

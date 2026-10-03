@@ -1,3 +1,7 @@
+<?php
+$selected = $selected ?? '';
+$basePath = $basePath ?? '';
+?>
 <div id="header">
     <div class="content">
         <div class="pull-left">

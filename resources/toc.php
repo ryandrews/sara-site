@@ -1,3 +1,4 @@
+<?php $articlePath = $articlePath ?? ''; ?>
 <div class="column-left">
     <ul>
         <li>
